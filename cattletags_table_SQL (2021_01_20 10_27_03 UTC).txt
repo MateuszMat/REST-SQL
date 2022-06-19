@@ -1,0 +1,25 @@
+drop table app.CATTLETAGS;
+
+create table "APP".CATTLETAGS
+(
+	TAG_ID INTEGER not null primary key,
+	GENDER VARCHAR(10),
+	BREED VARCHAR(20),
+	AGE INTEGER
+);
+
+INSERT INTO app.CATTLETAGS VALUES 
+(900,
+'Male',
+'Fresian',
+2),
+
+(901,
+'Male',
+'Hereford',
+1),
+
+(902,
+'Female',
+'Angus',
+3);
